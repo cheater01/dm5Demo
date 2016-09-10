@@ -1,0 +1,48 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+img
+{
+    vertical-align:bottom
+}
+
+body {
+    background: #fff;
+    color: #555;
+    font-size: 14px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    /*height: 9999px;*/
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #2d374b;
+    text-decoration: none
+}
+
+/*common css*/
+.w {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.cl {
+    clear: both;
+    _font-size: 0px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+
+}
+
+

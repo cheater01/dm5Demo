@@ -1,0 +1,428 @@
+.bgcolor
+{
+   background-color: #F2F2F2;
+}
+.bgcolor-white
+{
+    background-color: #ffffff;
+}
+
+.header
+{
+    background: url(../images/index_header_bak.jpg) no-repeat top center;
+    height:117px;
+    padding-top: 33px;
+}
+
+.header .logo h1
+{
+    /*font-size: 1px;*/
+    text-indent: -999em;
+}
+.header .search
+{
+    margin-left: 149px;
+    padding-top: 17px;
+}
+.header .search .search-box
+{
+    width: 525px;
+    height:51px ;
+}
+.header .search input
+{
+    float: left;
+    width: 425px;
+    height: 41px;
+    border: 5px solid #DD2727;
+    color: #767676;
+}
+.header .search .search-box a
+{
+    float: left;
+    background-color: #DD2727;
+    width: 82px;
+    height: 41px;
+    border: 5px solid #DD2727;
+    border-left-width: 0px;
+    line-height: 41px;
+    text-align: center;
+    font-size: 19px;
+    color: #DDDDDD;
+}
+.header .search ul
+{
+    padding-top: 8px;
+}
+.header .search ul li
+{
+    float: left;
+    margin-right: 11px;
+}
+
+.header .header-btns
+{
+     width: 120px;
+     padding-top: 21px;
+}
+.header .header-btns a
+{
+    float: left;
+    background-color: #1E1717;
+    width: 55px;
+    height: 29px;
+    color: #EBEBEB;
+    margin-right: 5px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 29px;
+}
+
+.nav
+{
+    background-color: #DD2727;
+
+
+}
+
+
+.nav ul li
+{
+    float: left;
+    width: 129px;
+    height: 45px;
+    font-size: 19px;
+    line-height: 45px;
+    text-align: center;
+
+}
+.nav ul li a
+{
+    color: #FFFFFF;
+}
+.nav ul li:hover
+{
+    background-color: #BD1E1E;
+}
+
+.nav .w .fr
+{
+    margin-top: 5px;
+    width: 100px;
+    height: 32px;
+    background-color:#FFFFFF;
+    color: #E65D5D;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+}
+.content .w
+{
+    padding-top: 18px;
+}
+.content .bannerBar
+{
+    position: relative;
+    width: 854px;
+    height: 380px;
+    overflow: hidden;
+}
+.content .bannerBar #bannerUl
+{
+    position: absolute;
+    width: 3760px;
+    top: 0;
+    left: 0;
+}
+
+.content .bannerBar #bannerUl li
+{
+    float: left;
+    width: 940px;
+    height: 380px;
+
+}
+.content .bannerBar #bannerBtns
+{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}
+
+.content .bannerBar #bannerBtns li
+{
+    float: left;
+    width: 11px;
+    height: 11px;
+    background-color: white;
+    margin-right: 8px;
+    border-radius: 50px;
+}
+.content .w .picbox
+{
+    width: 340px;
+}
+.content .w .picbox ul
+{
+    width:400px ;
+}
+
+.content .w .picbox ul li
+{
+    float: left;
+    width: 165px;
+    height: 190px;
+    margin-left: 8px;
+
+}
+.toggle
+{
+    padding-top: 17px;
+}
+.toggle ul
+{
+   
+    padding: 11px 0;
+    background-color: white;
+    border: 1px solid #A6BDD4;
+    overflow: hidden;
+    _zoom: 1;
+    
+}
+.toggle ul li
+{
+    float: left;
+    padding: 0 16px;
+    height: 18px;
+    line-height: 18px;
+    border-right: 0.5px solid #555555;
+
+
+}
+.toggle ul li.last
+{
+    border-right: 0px;
+}
+.toggle ul li
+{
+    font-size: 15px;
+}
+.toggle ul li a:hover
+{
+    color: #BD1E1E;
+}
+
+.message
+{
+    padding-top: 16px;
+}
+.message .w
+{
+    background-color: #ffffff;
+    border: 1px solid #DADADA;
+
+}
+.message .message-left{
+    width: 826px;
+    padding:0 17px ;
+}
+.message .message-left .msg-top
+{
+    height: 48px;
+    border-bottom: 1px solid #767676;
+}
+.message .message-left .msg-bottom ul
+{
+    width: 900px;
+    padding-top: 21px;
+
+}
+.message .message-left .msg-bottom ul li
+{
+    float: left;
+    padding-right: 21px;
+    padding-bottom: 17px;
+    text-align: center;
+}
+.message .message-left .msg-bottom ul li img
+{
+    width: 121px;
+    height: 166px;
+}
+
+
+
+.message .message-right
+{
+    width: 307px;
+}
+
+.message .message-right .msg-top
+{
+    height: 48px;
+    border-bottom: 1px solid #767676;
+}
+.message .message-right .msg-bottom
+{
+    padding-top: 21px;
+}
+
+.message .message-right .msg-bottom ul li
+{
+    position: relative;
+    margin-bottom: 15px;
+
+
+}
+.message .message-right .msg-bottom ul li span
+{
+    position: absolute;
+    background-color: #E8E8E8;
+    color: white;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+
+}
+.message .message-right .msg-bottom ul li a
+{
+    padding-left: 30px;
+}
+.messageupdate
+{
+    padding-top: 18px;
+}
+
+.messageupdate .w
+{
+    background-color: white;
+}
+.messageupdate .w .msg-top{
+    
+    padding: 0 19px;
+    height: 48px;
+    line-height: 48px;
+}
+.messageupdate .w .msg-middle
+{
+    padding: 0 19px;
+}
+.messageupdate .w .msg-middle ul
+{
+    width: 1184px;
+
+}
+.messageupdate .w .msg-middle ul li
+{
+    width: 122px;
+    position: relative;
+    float: left;
+    margin-right: 26px;
+    margin-bottom: 21px;
+}
+.messageupdate .w .msg-middle ul li a span
+{
+    position: absolute;
+    left: 0;
+    top: 137px;
+    width: 122px;
+    height: 24px;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    line-height: 24px;
+}
+.messageupdate .w .msg-middle ul li a img
+{
+    width: 122px;
+    height: 161px;
+}
+.messageupdate .w .msg-middle ul li a p
+{
+    padding-top: 2px;
+    text-align: center;
+}
+.messageupdate .w .msg-bottom
+{
+    padding: 0 19px;
+}
+
+.messageupdate .w .msg-bottom ul li
+{
+    position: relative;
+    float: left;
+    width: 280px;
+    height: 25px;
+    margin-bottom: 8px;
+}
+.messageupdate .w .msg-bottom ul li a
+{
+    padding-left: 21px;
+}
+.messageupdate .w .msg-bottom ul li a i
+{
+    
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    background-color: #FF9436;
+    color: white;
+    text-align: center;
+    border-radius: 50px 50px 0 50px;
+    top: 0;
+    left: 0;
+}
+.infoBar
+{
+    padding: 25px 0;
+}
+.infoBar .item
+{
+    float: left;
+    width: 205px;
+    height: 155px;
+    background-color: white;
+    margin-right: 20px;
+    padding-left: 19px;
+
+}
+.infoBar .item:nth-child(5n)
+{
+
+    margin-right: 0;
+}
+
+
+.infoBar .item h4
+{
+    padding: 20px 0 10px 0;
+    font-size: 17px;
+
+}
+.infoBar .item p
+{
+    margin-bottom: 14px;
+    color: #A6A6A6;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot p
+{
+    text-align: center;
+    margin-top: 10px;
+    color: #A6BDD4;
+    padding: 10px 0;
+
+}
